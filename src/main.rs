@@ -1,9 +1,9 @@
+#![deny(clippy::correctness, clippy::suspicious, clippy::complexity)]
 pub mod ahk;
 pub mod keycodes;
 pub mod r#macro;
 pub mod macro_events;
 pub mod recorder;
-// use windows::Win32::Foundation::ERROR_BLOCK_SHARED;
 
 use crate::ahk::AhkFile;
 use crate::r#macro::Macro;
